@@ -1,1 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import "tailwindcss";
+
+body {
+  background-image: url("./BackgroundNoise.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@theme {
+  --font-spacial: "Manrope", sans-serif;
+  --font-primany: "Poppins", sans-serif;
+  --font-ai: "Lato", sans-serif;
+  --font-faq: "Questrial", sans-serif;
+  --color-white-50: #fff;
+  --color-white-100: #fafafa;
+  --color-black-50: #020407;
+  --color-black-100: #111;
+  --color-black-200: #282732;
+  --color-gray-50: #262626
+  ----color--yellow-500: #fce38a;
+  --color-blue-50:#00245F;
+  --color-blue-100: #002868;
+  --color-blue-400: #335386;
+  --color-blue-700: #001c4a;
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-center-col {
+    @apply flex items-center justify-center flex-col;
+  }
+}
