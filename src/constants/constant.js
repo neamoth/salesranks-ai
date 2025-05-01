@@ -39,6 +39,7 @@ const boxCount = [
     },
 ]
 
+
 export {
     navLinks,
     hero,

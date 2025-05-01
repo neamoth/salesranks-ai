@@ -18,12 +18,14 @@ body {
   --color-white-100: #fafafa;
   --color-black-50: #020407;
   --color-black-100: #111;
+  ---color--black-200: #05131D;
   --color-black-200: #282732;
   --color-gray-50: #262626
-  ----color--yellow-500: #fce38a;
+  --color-yellow-500: #fce38a;
   --color-blue-50:#00245F;
   --color-blue-100: #002868;
   --color-blue-400: #335386;
+  --color-blue-600: #00245f;
   --color-blue-700: #001c4a;
 }
 

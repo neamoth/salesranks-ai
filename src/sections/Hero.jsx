@@ -26,29 +26,29 @@ const Hero = () => {
         )
     })
     return (
-        <section className="flex-center pt-[130px]">
-            <div className="w-[1440px] flex gap-3  h-[100dvh]">
+        <section className="flex-center pt-[130px] sm:pb-14 pb-18">
+            <div className="xl:w-[1440px] w-[100%] flex xl:flex-row flex-col gap-3 px-5">
                 <div>
                     <div className="w-full mb-10 md:md-0" ref={heroMainText}>
-                        <h1 className="text-[100px] font-ai font-bold text-black-100">
+                        <h1 className="xl:text-[70px] text-[50px] font-ai font-bold text-black-100">
                             Your AI- <br />
                             Powered <br />
                             Sales Coach
                         </h1>
                     </div>
                     <div className="flex">
-                        <div className="">
+                        <div className="flex xl:flex-row  flex-col">
                             <img src="/images/hero-miniRobot.png" alt="" />
                         </div>
-                        <div className="flex-center px-40 text-[20px]">
-                            <p className="w-[346px]">
+                        <div className="flex-center xl:px-40 px-5 ">
+                            <p className="xl:w-[346px]  md:text-[20px] text-[15px] w-full">
                                 {hero.description}
                             </p>
                         </div>
                     </div>
-                    <div className="flex py-20 gap-5">
+                    <div className="flex items-center xl:flex-row flex-col py-20 gap-5">
                         {iconCount.map((item) => (
-                            <div id={item.label} className="flex gap-5">
+                            <div id={item.label} className="flex  gap-5">
                                 <div className="flex-center p-[5px] shadow-md rounded">
                                     <img src={item.img} alt={item.label} />
                                 </div>
@@ -67,26 +67,28 @@ const Hero = () => {
                         ))}
                     </div>
                 </div>
-                <div>
-                    <div className="relative">
-                        <img src="/images/hero-robot.png" alt="" className="w-[583px] h-[628px]" />
+                <div className="flex flex-col items-center gap-5">
+                    <div className="flex items-center relative">
+                        <img src="/images/hero-robot.png" alt="" className="xl:w-[583px] xl:h-[628px] w-full h-full" />
                     </div>
-                    <div className="flex-center w-[467px] h-[359px] bg-white rounded-2xl absolute top-[600px] right-[508px] px-1.5 gap-3">
+                    <div className="flex flex-col items-center justify-center xl:w-[467px] w-75 xl:h-[359px] h-75 bg-white rounded-2xl md:absolute top-[600px] right-[508px] px-5 gap-3">
+                        <div className="flex items-center justify-between gap-40">
                             {boxCount.map((item, index) => (
-                                <div key={index} className="flex justify-between">
+                                <div key={index} className="">
                                     <CountUp
                                         end={item.value}
                                         suffix={item.suffix}
                                         duration={2.5}
+                                        className="md:text-[40px] text-[50px] font-semibold text-blue-600 font-spacial"
                                     />
                                 </div>
                             ))}
-                        <h1></h1>
-                        <p></p>
+                        </div>
+                        <h1 className="font-bold font-spacial text-black-100 ">Growth is our priority</h1>
+                        <p className="font-primany text-[17px] text-black-200">As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
