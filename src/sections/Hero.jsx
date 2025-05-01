@@ -71,7 +71,7 @@ const Hero = () => {
                     <div className="flex items-center relative">
                         <img src="/images/hero-robot.png" alt="" className="xl:w-[583px] xl:h-[628px] w-full h-full" />
                     </div>
-                    <div className="flex flex-col items-center justify-center xl:w-[467px] w-75 xl:h-[359px] h-75 bg-white rounded-2xl md:absolute top-[600px] right-[508px] px-5 gap-3">
+                    <div className="flex flex-col items-center justify-center xl:w-[467px] w-75 xl:h-[359px] h-75 bg-white rounded-2xl md:absolute top-[600px] right-[508px] shadow-md px-5 gap-3">
                         <div className="flex items-center justify-between gap-40">
                             {boxCount.map((item, index) => (
                                 <div key={index} className="">
