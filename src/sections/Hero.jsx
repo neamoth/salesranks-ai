@@ -72,20 +72,20 @@ const Hero = () => {
                         <img src="/images/hero-robot.png" alt="" className="xl:w-[583px] xl:h-[628px] w-full h-full" />
                     </div>
                     <div className="flex flex-col items-center justify-center xl:w-[467px] w-75 xl:h-[359px] h-75 bg-white rounded-2xl md:absolute top-[600px] right-[508px] shadow-md px-5 gap-3">
-                        <div className="flex items-center justify-between gap-40">
+                        <div className="flex items-center justify-between gap-10 sm:gap-5">
                             {boxCount.map((item, index) => (
                                 <div key={index} className="">
                                     <CountUp
                                         end={item.value}
                                         suffix={item.suffix}
                                         duration={2.5}
-                                        className="md:text-[40px] text-[50px] font-semibold text-blue-600 font-spacial"
+                                        className="xl:text-[50px] md:text-[40px] text-[35px]  font-semibold text-blue-600 font-spacial"
                                     />
                                 </div>
                             ))}
                         </div>
                         <h1 className="font-bold font-spacial text-black-100 ">Growth is our priority</h1>
-                        <p className="font-primany text-[17px] text-black-200">As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
+                        <p className="font-primany text-[17px] text-black-200 text-center">As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
                     </div>
                 </div>
             </div>
