@@ -40,9 +40,33 @@ const boxCount = [
 ]
 
 
+const cardData = [
+    {
+        id: 1,
+        img: "/images/course1.png",
+        badge1: "4 Weeks",
+        badge2: "Beginner",
+        authName: "By John Smith",
+        title: "Web Design Fundamentals",
+        desc: "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+        btn: "Get it Now"
+    },
+    {
+        id: 2,
+        img: "/images/course2.png",
+        badge1: "4 Weeks",
+        badge2: "Beginner",
+        authName: "By John Smith",
+        title: "Web Design Fundamentals",
+        desc: "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+        btn: "Get it Now"
+    },
+];
+
 export {
     navLinks,
     hero,
     iconCount,
     boxCount,
+    cardData,
 }

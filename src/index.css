@@ -15,16 +15,21 @@ body {
   --font-ai: "Lato", sans-serif;
   --font-faq: "Questrial", sans-serif;
   --color-white-50: #fff;
+  --color-white-95: #F1F1F3;
   --color-white-100: #fafafa;
   --color-black-50: #020407;
   --color-black-100: #111;
-  ---color--black-200: #05131D;
+  --color--black-200: #05131D;
   --color-black-200: #282732;
+  --color-gray-15: #4C4C4D;                                   
+  --color-gray-30: #4C4C4D; 
+  --color-gray-35:  #59595A; 
   --color-gray-50: #262626
   --color-yellow-500: #fce38a;
   --color-blue-50:#00245F;
   --color-blue-100: #002868;
   --color-blue-400: #335386;
+  --color-blue-500: #002868; 
   --color-blue-600: #00245f;
   --color-blue-700: #001c4a;
 }
