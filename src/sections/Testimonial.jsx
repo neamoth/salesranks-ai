@@ -3,7 +3,7 @@ const Testimonial = () => {
         <section className="flex flex-col items-center gap-10 font-spacial sm:px-0 px-5">
             <div className="sm:w-[1280px] w-full sm:px-0 px-5">
                 <div>
-                    <p className="font-[600] text-[#010205] sm:text-4xl text-2xl ">
+                    <p className="font-[600] text-[#010205] sm:text-4xl text-2xl pb-10">
                         “ They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.”
                     </p>
                 </div>
