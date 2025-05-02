@@ -26,7 +26,7 @@ const Hero = () => {
         )
     })
     return (
-        <section className="flex-center pt-[130px] sm:pb-14 pb-18">
+        <section className="flex-center sm:pt-[130px] pt-2 sm:pb-14 pb-18">
             <div className="xl:w-[1440px] w-[100%] flex xl:flex-row flex-col gap-3 px-5">
                 <div>
                     <div className="w-full mb-10 md:md-0" ref={heroMainText}>

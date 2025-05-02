@@ -7,11 +7,11 @@ const Navbar = () => {
 
         <header>
             <div className="container flex items-center justify-between xl:md:w-[1440px] w-[100%] mx-auto py-[30px] px-5">
-                <div className="flex items-center w-[15%]">
+                <div className="flex items-center sm:w-[15%] w-[60%]">
                     <img
                         src="/images/logo.png"
                         alt="logo"
-                        className="h-[27px]"
+                        className="sm:h-[27px] w-full h-full"
                     />
                 </div>
 
@@ -61,6 +61,7 @@ const Navbar = () => {
                         </nav>
                     </div>
                 )}
+
             </div>
         </header>
     )

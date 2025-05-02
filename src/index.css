@@ -8,6 +8,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+footer {
+  background-image: url("./footerBG.png");
+  background-size: cover;
+  background-position: center;
+}
 
 @theme {
   --font-spacial: "Manrope", sans-serif;
@@ -21,11 +26,13 @@ body {
   --color-black-100: #111;
   --color--black-200: #05131D;
   --color-black-200: #282732;
+  --color-gray-0: #CCCCCC;                                   
   --color-gray-15: #4C4C4D;                                   
   --color-gray-30: #4C4C4D; 
   --color-gray-35:  #59595A; 
   --color-gray-50: #262626
   --color-yellow-500: #fce38a;
+  --color-yellow-800: #8B7D4C;
   --color-blue-50:#00245F;
   --color-blue-100: #002868;
   --color-blue-400: #335386;
