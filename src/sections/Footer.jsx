@@ -3,7 +3,7 @@ import { footer } from "../constants/constant"
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col items-center justify-start sm:gap-10 gap-5 sm:px-10 px-5 sm:py-15 py-5">
+        <footer className=" overflow-hidden flex flex-col items-center justify-start sm:gap-10 gap-5 sm:px-10 px-5 sm:py-15 py-5">
             <Cta
                 className=""
             />
