@@ -82,7 +82,6 @@ const faqData = [
     },
 ]
 
-
 const footer = {
     desc:
         "SalesRank.AI is a cutting-edge AI-powered sales coaching platform designed to help sales professionals improve their skills and close more deals.",

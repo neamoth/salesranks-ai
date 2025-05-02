@@ -4,6 +4,7 @@ import Course from "./sections/Course"
 import Faq from "./sections/Faq"
 import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
+import Testimonial from "./sections/Testimonial"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <LiveAICoach />
       <Course />
       <Faq />
+      <Testimonial />
       <Footer />
     </>
   )
