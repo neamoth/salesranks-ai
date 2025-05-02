@@ -7,17 +7,17 @@ const Navbar = () => {
 
         <header>
             <div className="container flex items-center justify-between xl:md:w-[1440px] w-[100%] mx-auto py-[30px] px-5">
-                <div className="flex items-center sm:w-[15%] w-[60%]">
+                <div className="flex items-center sm:w-[25%] w-[60%]">
                     <img
                         src="/images/logo.png"
                         alt="logo"
-                        className="sm:h-[27px] w-full h-full"
+                        className="sm:h-[27px] sm:w-[160px] w-full h-full"
                     />
                 </div>
 
                 {/* For desktop */}
 
-                <nav className="hidden md:flex items-center justify-start w-[65%] space-x-8">
+                <nav className="hidden md:flex items-center justify-start sm:w-[65%] w-[40%] space-x-8">
                     {navLinks.map((link, index) => (
                         <a id={index} href={link.href} className="text-black-50 ">{link.label}</a>
                     ))}
